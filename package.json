@@ -1,0 +1,29 @@
+{
+  "name": "hello-deploy",
+  "version": "1.0.0",
+  "description": "1. Creamos el repositorio local.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanmaherr404/hello-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Juanmaherr404/hello-deploy/issues"
+  },
+  "homepage": "https://github.com/Juanmaherr404/hello-deploy#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12"
+  }
+}
